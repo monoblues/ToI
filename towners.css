@@ -1,0 +1,14 @@
+          /*   header와 footer를 뺀 본문만의 css */
+
+@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+                
+          section {margin: 30px auto 10px; font-family: 'Ubuntu Mono' ;}
+          section header {text-align:center; border-radius: 15px 0px; background-color:rgb(205,205,175);padding:10px;}
+          section article {display:block; width:100px; height:100px; border:5px solid rgba(125,155,80,1); margin-bottom:100px; border-radius:55px; background-size: cover;background:#fff no-repeat center; position:relative;}
+          #sectArt1 {background-image:url(../jq_nn/JavaScript.png);}
+          #sectArt2 {background-image:url(../jq_nn/Python.png);}
+          section article h1 {text-align:center;color:rgb(205,205,255)}
+          section article p {text-indent: 10px;color:rgb(0,0,0); }
+          section article .artCont {opacity:0.1; width:44em;padding:0.5em;background:rgb(205,205,255); position:absolute; left:120px; top:0px; border-radius:0px 15px; transition: all 0.4s ease-in 0.3s;}
+          section article:hover .artCont {opacity:1;left:140px;top:0px;}
+          section article:hover {border-color:yellow;}

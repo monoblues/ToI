@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Bootstrap 101 Template</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Bootstrap -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="screen">
+        <script src="http://code.jquery.com/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script>
+      $(document).ready(function(){
+      $('.dropdown-toggle').dropdown('toggle');
+      });
+      </script>  
+  </head>
+  <body>
+ <!-- Header는 사이트 공통-->
+        <header id="page-wrap">
+          <hgroup>
+              <h1> Welcome to mysterious..</h1>
+              <h2><img src="banner_web_1.svg" /></h2>
+        </hgroup>
+            <p></p>
+            
+            <nav id="navigation">
+          <ul class="nav nav-pills">
+              <li class="active"><a href="home.html">Town Hall</a></li>
+              <li><a href="towners.html">Towners - About Us</a></li>
+              <li><a href="toinsmouth.html" class="dropdown-toggle" data-target="#" data-toggle="dropdown">Go To Insmouth - Games<b class="caret"></b></a>
+                  <ul class="dropdown-menu" role="menu" aria-labelledby="dLabel">
+      <li><a href="toinsmouth.html">DOM Story-telling</a></li>
+    <li><a href="toinsmouth.html">Sillouette Platformer</a></li>
+    </ul>
+              </li>
+              <li><a href="feedback.html">Feedback - Leave messages</a></li>
+            </ul>
+          </nav>
+            
+          </header>  
+<!-- Header는 사이트 공통-->      
+      
+      <section id="section">
+      <header id="sectHead1">
+          <hgroup>
+              <h1> <img src="banner_web_2.svg" /></h1>
+          </hgroup>
+        <p> Have you ever heard about the Cthulhu Mythos, or Call of Cthulhu? <br/>
+            How about breath-taking Insmouth Escape Story? No? <br/>
+            Well.. Even though you said no to all questions above, most of you have at least heard about Arkham City. <br>
+            Yes! It is the territory of the dark knight in Batman franchise. <br/>
+            The city name 'Arkham' comes from the novels by the greatest horror author, H.P. Lovecraft. <br />
+            The village of 'Insmouth' is notorious for their hidden, untold and secret stories behind the village. <br /> 
+            
+            It is guranteed that all contents in this site are related to horror, and mystery subject, mainly Cthluhu Mythos. <br/>
+            Why? The answer to this question is really simple. <br/>
+            Because we like cosmic horror genre. <br>
+            
+          
+          </p>
+        </header>
+      <article id="sectArt1">
+          <h1> <img src="banner_web_3.svg" /></h1>
+        <p>
+        First of all, we are currently developing DOM (Document Object Model) based story telling game related to Cthulhu Mythos using JavaScript. <br/>
+            
+          
+          </p>
+          </article>
+
+      </section>
+<!-- Footer는 사이트 공통-->      
+      <footer id="footer"> 
+          Made and maintained by KN Blues Brothers @ S.Korea
+          
+      </footer>   
+<!-- Footer는 사이트 공통-->             
+  </body>
+
+</html>

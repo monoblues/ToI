@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en-US">
+  <head>
+    <meta charset="UTF-8" />
+    <title> The Town of Insmouth </title>
+    <link rel="Stylesheet" href="../jquery-ui-sunny/jquery-ui-1.11.4.custom/jquery-ui.min.css" />
+    <link rel="Stylesheet" href="proto.css" />
+<!--jQuery link-->
+      <script src="../jquery-2.1.3.min.js"> </script>
+<!--jQuery UI link-->
+      <script src="../jquery-ui-sunny/jquery-ui-1.11.4.custom/jquery-ui.min.js"> </script>
+<!--HTML indocument script-->
+      <script>
+          // On load > Start of jQuery
+          $(document).ready(function(){
+              
+              // Basic CSS Class Setup // Color/Detail/Dynamic Except Hover
+/*              $('*').addClass('ui-widget');
+              $('#header').addClass('ui-widget-header ui-corner-all');
+              $('#section').addClass('ui-widget-content ui-corner-all');
+              $('#rollme').addClass('ui-state-default');
+              $('#footer').addClass('ui-state-highlight');*/
+              
+              /// Top Navigation bar follows your Scroll. CSS이 position fixed로 해결할수 있음.
+              //$(window).scroll(function() {$('#navigation').stop().animate({top: $(document).scrollTop()},'slow');});
+
+
+              //@Footer New Date every 1 second    
+//              setInterval(function(){var date =new Date(); $('#footer').html(date.toString());},1000);
+      
+              
+            // End of jQuery.    
+          });
+      </script> 
+</head>
+  <body>
+      <div id="home">
+    <header id="header">
+      <hgroup>
+        <h1>
+             <img src="banner_web.svg" />       	 
+        	</h1>
+        <h2>
+            <img src="banner_web_1.svg" />
+          </h2>
+      </hgroup>
+    <nav id="navigation">
+      <ul>
+        <li id="nav1" class="nav"><a  href="test1.html" >ABOUT US.Inf<br />ABOUT US.Inf</a></li>
+        <li id="nav2" class="nav"><a  href="test2.html">GoTo GAMES<br />GoTo GAMES</a></li>
+        <li id="nav3" class="nav"><a  href="test3.html">LEAVE MSG.<br />LEAVE MSG. </a></li>
+      </ul>
+    </nav>
+    </header>
+
+      <section id="section">
+      <header id="sectHead1">
+          <hgroup>
+              <h1> <img src="banner_web_2.svg" /></h1>
+          </hgroup>
+        <p>
+        Have you ever heard about the Cthulhu Mythos, or Call of Cthulhu? <br/>
+            How about breath-taking Insmouth Escape Story? No? <br/>
+            Well.. Even though you said no to all questions above, most of you have at least heard about Arkham City. <br>
+            Yes! It is the territory of the dark knight in Batman franchise. <br/>
+            The city name 'Arkham' comes from the novels by the greatest horror author, H.P. Lovecraft. <br />
+            The village of 'Insmouth' is notorious for their hidden, untold and secret stories behind the village. <br /> 
+            
+            It is guranteed that all contents in this site are related to horror, and mystery subject, mainly Cthluhu Mythos. <br/>
+            Why? The answer to this question is really simple. <br/>
+            Because we like cosmic horror genre. <br>
+            
+          
+          </p>
+        </header>
+      <article id="sectArt1">
+          <h1> <img src="banner_web_3.svg" /></h1>
+        <p>
+        First of all, we are currently developing DOM (Document Object Model) based story telling game related to Cthulhu Mythos using JavaScript. <br/>
+            
+          
+          </p>
+          </article>
+
+      </section>
+      
+      <footer id="footer"> 
+          Made and maintained by KC Blues Brothers @ S.Korea
+          
+      </footer>
+</div>
+  </body>
+</html>

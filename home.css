@@ -1,0 +1,9 @@
+          /*   header와 footer를 뺀 본문만의 css */
+
+		@import url(http://fonts.googleapis.com/css?family=Ubuntu+Mono);
+                
+          section {margin: 30px auto 10px; font-family: 'Ubuntu Mono';}
+          section header {text-align:center; border-radius: 15px 0px; background-color:rgb(205,205,175); padding:10px;}
+          section article {background-color:rgb(205,205,255);border-radius:0px 15px;}
+          section article h1 {text-align:center;}
+          section article p {text-indent: 10px; padding:20px;}
